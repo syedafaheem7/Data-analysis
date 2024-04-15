@@ -1,4 +1,4 @@
-## Income Prediction Model 
+# Income Prediction Model 
 
 #Overview
 
@@ -36,19 +36,22 @@ The performance of the model can be evaluated using metrics such as accuracy, pr
 # Model selection
 When it comes to predicting binary outcomes, such as whether an individual will earn less than or equal to $50,000 or more than $50,000 annually, different machine learning models have different prediction scales. Here's a brief overview of the prediction scales for some common classifiers:
 
-Logistic Regression:
+# Logistic Regression:
 Prediction Scale: Probabilities between 0 and 1.
 Interpretation: The predicted probability represents the likelihood of belonging to the positive class (earning > $50,000).
-Support Vector Machine (SVM):
+
+# Support Vector Machine (SVM):
 Prediction Scale: Decision boundary.
 Interpretation: SVM aims to find the hyperplane that best separates the two classes. Predictions are based on which side of the hyperplane the data point falls on.
-Naive Bayes:
+
+# Naive Bayes:
 Prediction Scale: Probabilities between 0 and 1.
 Interpretation: Similar to logistic regression, Naive Bayes calculates the probability of belonging to each class based on the input features and predicts the class with the highest probability.
-Decision Tree:
+
+# Decision Tree:
 Prediction Scale: Classes or discrete values.
 Interpretation: Decision trees recursively split the feature space into regions, assigning a class or value to each region. Predictions are based on which region the data point falls into.
-Random Forest:
+# Random Forest:
 Prediction Scale: Classes or discrete values.
 Interpretation: Random forest is an ensemble of decision trees. Predictions are made by averaging or voting the predictions of individual trees.
 For binary classification tasks like the one you described, all these models can provide predictions that can be interpreted accordingly. Logistic regression and Naive Bayes directly provide probabilities, which can be thresholded to obtain class predictions. SVM, decision trees, and random forests provide class predictions directly.
