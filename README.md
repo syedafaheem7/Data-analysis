@@ -1,6 +1,6 @@
 # Income Prediction Model 
 
-#Overview
+Overview
 
 This repository contains code for building a machine learning model to predict whether an individual will earn less than or equal to $50,000 or more than $50,000 annually. The model is trained on a dataset containing features such as age, education level, occupation, etc., and the target variable is the income level categorized as <=80K or >80K.
 
@@ -18,15 +18,25 @@ The dataset used for training and testing the model is located in the data
 (https://archive.ics.uci.edu/ml/datasets/census+income) for sake of simplicity we use modified version of it.It consists of the following columns:
 
 Age: Age of the individual
+
 work class: Type of individual employement
+
 Education: Education level of the individual
+
 Occupation: Occupation of the individual
+
 Marital Status: Marital status of the individual
+
 Relationship: Relationship status of the individual
+
 Race: Race of the individual
+
 Sex: Gender of the individual
+
 Hours per Week: Number of hours worked per week
+
 Income: Income level categorized as <=50K or >50K (target variable)
+
 native-country: Country of the individual
 
 
